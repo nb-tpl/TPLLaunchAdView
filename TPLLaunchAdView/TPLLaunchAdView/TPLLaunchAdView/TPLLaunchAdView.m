@@ -135,7 +135,7 @@
 - (void)skipTimer:(NSTimer *)timer
 {
     if(self.skipButton) {
-        [self.skipButton setTitle:[NSString stringWithFormat:@"%@%ld",self.config.enbleSkip ? [NSString stringWithFormat:@"%@ ",@"跳过"] : @"",self.tempTime] forState:UIControlStateNormal];
+        [self.skipButton setTitle:[NSString stringWithFormat:@"%@%ld",self.config.enbleSkip ? [NSString stringWithFormat:@"%@ ",@"跳过"] : @"",(long)self.tempTime] forState:UIControlStateNormal];
     }
     self.tempTime = self.tempTime - 1;
     if (self.tempTime < 0) {
