@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B63791C1FDED6AF00C59C7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B63791B1FDED6AF00C59C7F /* AppDelegate.m */; };
+		3B63791F1FDED6AF00C59C7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B63791E1FDED6AF00C59C7F /* ViewController.m */; };
+		3B6379241FDED6AF00C59C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6379231FDED6AF00C59C7F /* Assets.xcassets */; };
+		3B63792A1FDED6AF00C59C7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6379291FDED6AF00C59C7F /* main.m */; };
+		3B6379341FDED6AF00C59C7F /* TPLLaunchAdViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6379331FDED6AF00C59C7F /* TPLLaunchAdViewTests.m */; };
+		3B63793F1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B63793E1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.m */; };
+		3B6379531FDF6AEB00C59C7F /* TPLLaunchAdViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B63794F1FDF6AEB00C59C7F /* TPLLaunchAdViewConfig.m */; };
+		3B6379541FDF6AEB00C59C7F /* TPLLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6379501FDF6AEB00C59C7F /* TPLLaunchAdView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B6379301FDED6AF00C59C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63790F1FDED6AE00C59C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6379161FDED6AE00C59C7F;
+			remoteInfo = TPLLaunchAdView;
+		};
+		3B63793B1FDED6AF00C59C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B63790F1FDED6AE00C59C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6379161FDED6AE00C59C7F;
+			remoteInfo = TPLLaunchAdView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B6379171FDED6AE00C59C7F /* TPLLaunchAdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPLLaunchAdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B63791A1FDED6AF00C59C7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B63791B1FDED6AF00C59C7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B63791D1FDED6AF00C59C7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B63791E1FDED6AF00C59C7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B6379231FDED6AF00C59C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6379281FDED6AF00C59C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6379291FDED6AF00C59C7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B63792F1FDED6AF00C59C7F /* TPLLaunchAdViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPLLaunchAdViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6379331FDED6AF00C59C7F /* TPLLaunchAdViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLLaunchAdViewTests.m; sourceTree = "<group>"; };
+		3B6379351FDED6AF00C59C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B63793A1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPLLaunchAdViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B63793E1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLLaunchAdViewUITests.m; sourceTree = "<group>"; };
+		3B6379401FDED6AF00C59C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B63794F1FDF6AEB00C59C7F /* TPLLaunchAdViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLLaunchAdViewConfig.m; sourceTree = "<group>"; };
+		3B6379501FDF6AEB00C59C7F /* TPLLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLLaunchAdView.m; sourceTree = "<group>"; };
+		3B6379511FDF6AEB00C59C7F /* TPLLaunchAdViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLLaunchAdViewConfig.h; sourceTree = "<group>"; };
+		3B6379521FDF6AEB00C59C7F /* TPLLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLLaunchAdView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6379141FDED6AE00C59C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B63792C1FDED6AF00C59C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6379371FDED6AF00C59C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B63790E1FDED6AE00C59C7F = {
+			isa = PBXGroup;
+			children = (
+				3B6379191FDED6AF00C59C7F /* TPLLaunchAdView */,
+				3B6379321FDED6AF00C59C7F /* TPLLaunchAdViewTests */,
+				3B63793D1FDED6AF00C59C7F /* TPLLaunchAdViewUITests */,
+				3B6379181FDED6AE00C59C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6379181FDED6AE00C59C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6379171FDED6AE00C59C7F /* TPLLaunchAdView.app */,
+				3B63792F1FDED6AF00C59C7F /* TPLLaunchAdViewTests.xctest */,
+				3B63793A1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6379191FDED6AF00C59C7F /* TPLLaunchAdView */ = {
+			isa = PBXGroup;
+			children = (
+				3B63794E1FDF6AEB00C59C7F /* TPLLaunchAdView */,
+				3B63791A1FDED6AF00C59C7F /* AppDelegate.h */,
+				3B63791B1FDED6AF00C59C7F /* AppDelegate.m */,
+				3B63791D1FDED6AF00C59C7F /* ViewController.h */,
+				3B63791E1FDED6AF00C59C7F /* ViewController.m */,
+				3B6379231FDED6AF00C59C7F /* Assets.xcassets */,
+				3B6379281FDED6AF00C59C7F /* Info.plist */,
+				3B6379291FDED6AF00C59C7F /* main.m */,
+			);
+			path = TPLLaunchAdView;
+			sourceTree = "<group>";
+		};
+		3B6379321FDED6AF00C59C7F /* TPLLaunchAdViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6379331FDED6AF00C59C7F /* TPLLaunchAdViewTests.m */,
+				3B6379351FDED6AF00C59C7F /* Info.plist */,
+			);
+			path = TPLLaunchAdViewTests;
+			sourceTree = "<group>";
+		};
+		3B63793D1FDED6AF00C59C7F /* TPLLaunchAdViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B63793E1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.m */,
+				3B6379401FDED6AF00C59C7F /* Info.plist */,
+			);
+			path = TPLLaunchAdViewUITests;
+			sourceTree = "<group>";
+		};
+		3B63794E1FDF6AEB00C59C7F /* TPLLaunchAdView */ = {
+			isa = PBXGroup;
+			children = (
+				3B63794F1FDF6AEB00C59C7F /* TPLLaunchAdViewConfig.m */,
+				3B6379501FDF6AEB00C59C7F /* TPLLaunchAdView.m */,
+				3B6379511FDF6AEB00C59C7F /* TPLLaunchAdViewConfig.h */,
+				3B6379521FDF6AEB00C59C7F /* TPLLaunchAdView.h */,
+			);
+			path = TPLLaunchAdView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6379161FDED6AE00C59C7F /* TPLLaunchAdView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6379431FDED6AF00C59C7F /* Build configuration list for PBXNativeTarget "TPLLaunchAdView" */;
+			buildPhases = (
+				3B6379131FDED6AE00C59C7F /* Sources */,
+				3B6379141FDED6AE00C59C7F /* Frameworks */,
+				3B6379151FDED6AE00C59C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPLLaunchAdView;
+			productName = TPLLaunchAdView;
+			productReference = 3B6379171FDED6AE00C59C7F /* TPLLaunchAdView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B63792E1FDED6AF00C59C7F /* TPLLaunchAdViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6379461FDED6AF00C59C7F /* Build configuration list for PBXNativeTarget "TPLLaunchAdViewTests" */;
+			buildPhases = (
+				3B63792B1FDED6AF00C59C7F /* Sources */,
+				3B63792C1FDED6AF00C59C7F /* Frameworks */,
+				3B63792D1FDED6AF00C59C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6379311FDED6AF00C59C7F /* PBXTargetDependency */,
+			);
+			name = TPLLaunchAdViewTests;
+			productName = TPLLaunchAdViewTests;
+			productReference = 3B63792F1FDED6AF00C59C7F /* TPLLaunchAdViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B6379391FDED6AF00C59C7F /* TPLLaunchAdViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6379491FDED6AF00C59C7F /* Build configuration list for PBXNativeTarget "TPLLaunchAdViewUITests" */;
+			buildPhases = (
+				3B6379361FDED6AF00C59C7F /* Sources */,
+				3B6379371FDED6AF00C59C7F /* Frameworks */,
+				3B6379381FDED6AF00C59C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B63793C1FDED6AF00C59C7F /* PBXTargetDependency */,
+			);
+			name = TPLLaunchAdViewUITests;
+			productName = TPLLaunchAdViewUITests;
+			productReference = 3B63793A1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B63790F1FDED6AE00C59C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tiperTan;
+				TargetAttributes = {
+					3B6379161FDED6AE00C59C7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3B63792E1FDED6AF00C59C7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B6379161FDED6AE00C59C7F;
+					};
+					3B6379391FDED6AF00C59C7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B6379161FDED6AE00C59C7F;
+					};
+				};
+			};
+			buildConfigurationList = 3B6379121FDED6AE00C59C7F /* Build configuration list for PBXProject "TPLLaunchAdView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B63790E1FDED6AE00C59C7F;
+			productRefGroup = 3B6379181FDED6AE00C59C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6379161FDED6AE00C59C7F /* TPLLaunchAdView */,
+				3B63792E1FDED6AF00C59C7F /* TPLLaunchAdViewTests */,
+				3B6379391FDED6AF00C59C7F /* TPLLaunchAdViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6379151FDED6AE00C59C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6379241FDED6AF00C59C7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B63792D1FDED6AF00C59C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6379381FDED6AF00C59C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6379131FDED6AE00C59C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B63791F1FDED6AF00C59C7F /* ViewController.m in Sources */,
+				3B6379541FDF6AEB00C59C7F /* TPLLaunchAdView.m in Sources */,
+				3B63792A1FDED6AF00C59C7F /* main.m in Sources */,
+				3B63791C1FDED6AF00C59C7F /* AppDelegate.m in Sources */,
+				3B6379531FDF6AEB00C59C7F /* TPLLaunchAdViewConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B63792B1FDED6AF00C59C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6379341FDED6AF00C59C7F /* TPLLaunchAdViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6379361FDED6AF00C59C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B63793F1FDED6AF00C59C7F /* TPLLaunchAdViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6379311FDED6AF00C59C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6379161FDED6AE00C59C7F /* TPLLaunchAdView */;
+			targetProxy = 3B6379301FDED6AF00C59C7F /* PBXContainerItemProxy */;
+		};
+		3B63793C1FDED6AF00C59C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6379161FDED6AE00C59C7F /* TPLLaunchAdView */;
+			targetProxy = 3B63793B1FDED6AF00C59C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B6379411FDED6AF00C59C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B6379421FDED6AF00C59C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6379441FDED6AF00C59C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN87A34J65;
+				INFOPLIST_FILE = TPLLaunchAdView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpl.TPLLaunchAdView.TPLLaunchAdView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B6379451FDED6AF00C59C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN87A34J65;
+				INFOPLIST_FILE = TPLLaunchAdView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpl.TPLLaunchAdView.TPLLaunchAdView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B6379471FDED6AF00C59C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN87A34J65;
+				INFOPLIST_FILE = TPLLaunchAdViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpl.TPLLaunchAdView.TPLLaunchAdViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPLLaunchAdView.app/TPLLaunchAdView";
+			};
+			name = Debug;
+		};
+		3B6379481FDED6AF00C59C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN87A34J65;
+				INFOPLIST_FILE = TPLLaunchAdViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpl.TPLLaunchAdView.TPLLaunchAdViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPLLaunchAdView.app/TPLLaunchAdView";
+			};
+			name = Release;
+		};
+		3B63794A1FDED6AF00C59C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN87A34J65;
+				INFOPLIST_FILE = TPLLaunchAdViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpl.TPLLaunchAdView.TPLLaunchAdViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TPLLaunchAdView;
+			};
+			name = Debug;
+		};
+		3B63794B1FDED6AF00C59C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN87A34J65;
+				INFOPLIST_FILE = TPLLaunchAdViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpl.TPLLaunchAdView.TPLLaunchAdViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TPLLaunchAdView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6379121FDED6AE00C59C7F /* Build configuration list for PBXProject "TPLLaunchAdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6379411FDED6AF00C59C7F /* Debug */,
+				3B6379421FDED6AF00C59C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6379431FDED6AF00C59C7F /* Build configuration list for PBXNativeTarget "TPLLaunchAdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6379441FDED6AF00C59C7F /* Debug */,
+				3B6379451FDED6AF00C59C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6379461FDED6AF00C59C7F /* Build configuration list for PBXNativeTarget "TPLLaunchAdViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6379471FDED6AF00C59C7F /* Debug */,
+				3B6379481FDED6AF00C59C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6379491FDED6AF00C59C7F /* Build configuration list for PBXNativeTarget "TPLLaunchAdViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B63794A1FDED6AF00C59C7F /* Debug */,
+				3B63794B1FDED6AF00C59C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B63790F1FDED6AE00C59C7F /* Project object */;
+}
